@@ -1,0 +1,183 @@
+﻿<!doctype html>
+<html lang="ru"> 
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Задание 3</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid d-flex align-items-center">
+                <div class="ml-100px profile-icon mr-5">
+                    <i class="fas fa-female navbar-brand ml-3  dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                        <div class="dropdown-menu" id="first-menu">
+                            <a class="dropdown-item btn btn-default" data-toggle="tooltip" data-placement="right" title="Bootstrap" id="second-menu-btn" tabindex="0">
+                                Bootstrap
+                            </a>
+                            <div class="dropdown-menu" id="second-menu">
+                                <a class="dropdown-item" href="Задание 1.html">Часть 1</a>
+                                <a class="dropdown-item" href="Задание 2.html">Часть 2</a>
+                                <a class="dropdown-item" href="Задание 3.html">Часть 3</a>
+                            </div>
+                        </div>
+                    </i>
+                </div>
+				<i class="breadcrumb col">
+					<li><a href="Задание 1.html">Главная</a></li>
+					<li class="active">/Задание 3</li>
+				</i>
+            </div>
+        </nav>
+    </header>
+	<body>
+		<table align="center" border="10" width="500" bordercolor="#d3d3d3">
+			<caption>
+				<h2>Самостоятельная подготовка к математическому анализу</h2>
+			</caption>
+			<tbody>
+				<tr>
+					<td align="center">
+						<h4>ИНТЕГРАЛ</h4>
+					</td>
+					<td align="center">
+						<h4>СУММА</h4>
+					</td>
+					<td align="center">
+						<h4>ПРЕДЕЛ</h4>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+                    <!-- 
+					mn - число, mo - оператор (знак), mi - идентификатор (не-число)
+					msubsup - нижний и верхний индексы к символу
+					msub - нижний индекс
+					msup - верхний индекс
+					munderover - символы над и под чем-то
+					mfrac - дробь
+					mfenced - скобки
+					mrow - сгруппировать
+					msqrt - квадратный корень
+					mroot - корень с заданной степенью
+					-->
+						<math>
+							<msubsup>
+								<mo>&#x222B;</mo>
+								<mn>1</mn>
+								<mn>7</mn>
+							</msubsup>
+							<mfrac>
+								<msup>
+									<mi>x</mi>
+									<mn>2</mn>
+								</msup>
+								<mrow>
+									<mo>(</mo>
+									<mn>7</mn>
+									<mo>-</mo>
+									<msqrt>
+										<mi>x</mi>
+									</msqrt>
+									<mo>)</mo>
+								</mrow>
+							</mfrac>
+							<mo>d</mo>
+							<mi>x</mi>
+						</math>
+					</td>
+					<td align="center">
+						<math>
+							<munderover>
+								<mo>&#x2211;</mo>
+								<mn>1</mn>
+								<mn>3</mn>
+							</munderover>
+							<mfrac>
+								<mrow>
+									<mfenced open="|" close="|">
+										<mi>x</mi>
+									</mfenced>
+									<mo>-</mo>
+									<mn>1</mn>
+								</mrow>
+								<mrow>
+									<mroot>
+										<mi>x</mi>
+										<mn>5</mn>
+									</mroot>
+									<mo>+</mo>
+									<mn>2</mn>
+								</mrow>
+							</mfrac>
+							<mo>d</mo>
+							<mi>x</mi>
+						</math>
+					</td>
+					<td align="center">
+						<math>
+							<munder>
+								<mi>lim</mi>
+								<mrow>
+									<mi>x</mi>
+									<mo>&#x2192;</mo>
+									<mo>&#x221E;</mo>
+								</mrow>
+							</munder>
+							<mfrac>
+								<mrow>
+									<mo>(</mo>
+									<mn>2</mn>
+									<msup>
+										<mi>x</mi>
+										<mn>2</mn>
+									</msup>
+									<mo>-</mo>
+									<mn>4</mn>
+									<mi>x</mi>
+									<mo>+</mo>
+									<mn>1</mn>
+									<mo>)</mo>
+								</mrow>
+								<mi>x</mi>
+							</mfrac>
+						</math>
+						</td>
+					</tr>			
+				</tbody>
+			</table>
+			<p align="center">
+				<a class="media-left" 
+								href="#" onclick="new Audio('https://vk.com/mp3/bb3.mp3?1').play(); return false;">
+								<img class="media-object" src="Клевч.jpg" alt="Generic placeholder image">
+								
+							</a>
+			</p>
+		</div>
+	</div>
+
+    <script src="http://fred-wang.github.io/mathjax.js/mpadded-min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
